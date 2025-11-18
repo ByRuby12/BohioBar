@@ -91,39 +91,6 @@
       {"nombre": "Bollería: donuts o napolitana de chocolate", "descripcion": "Donuts o napolitana de chocolate/azúcar. Extras disponibles: bacon, york, queso (+1€), jamón ibérico, huevo (+1,2€).", "precio": "1,60€", "alergenos": ["gluten","lacteos","huevos","soja"]}
     ]
   },
-  {
-    "categoria": "Refrescos y Otras Bebidas",
-    "productos": [
-      {"nombre": "Coca Cola", "descripcion": "Refresco clásico.", "precio": "2,80€", "alergenos": ["free-alergenos"]},
-      {"nombre": "Coca Cola Zero", "descripcion": "Refresco sin azúcar.", "precio": "2,80€", "alergenos": ["free-alergenos"]},
-      {"nombre": "Coca Cola Zero Zero", "descripcion": "Refresco sin azúcar y sin cafeína.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Fanta Naranja", "descripcion": "Refresco de naranja.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Fanta Limón", "descripcion": "Refresco de limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Aquarius Limón", "descripcion": "Bebida isotónica sabor limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Aquarius Naranja", "descripcion": "Bebida isotónica sabor naranja.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Fuze Tea Limón", "descripcion": "Té frío sabor limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Fuze Tea Maracuyá", "descripcion": "Té frío sabor maracuyá.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Casera", "descripcion": "Refresco de soda.", "precio": "3,00€","alergenos": ["free-alergenos"]},
-      {"nombre": "Schweppes Limón", "descripcion": "Bebida tónica sabor limón.", "precio": "2,90€","alergenos": ["free-alergenos"]},
-      {"nombre": "Schweppes Naranja", "descripcion": "Bebida tónica sabor naranja.", "precio": "2,90€","alergenos": ["free-alergenos"]},
-      {"nombre": "Sprite", "descripcion": "Refresco de lima-limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Bitter Kas", "descripcion": "Refresco con sabor amargo.", "precio": "3,10€","alergenos": ["free-alergenos"]},
-      {"nombre": "Red Bull", "descripcion": "Bebida energética.", "precio": "3,50€","alergenos": ["free-alergenos"]},
-      {"nombre": "Tónica Hibiscus", "descripcion": "Agua tónica con hibiscus.", "precio": "3,10€","alergenos": ["free-alergenos"]},
-      {"nombre": "Tónica Schweppes", "descripcion": "Agua tónica clásica.", "precio": "2,90€","alergenos": ["free-alergenos"]},
-      {"nombre": "Mosto", "descripcion": "Bebida dulce de uva.", "precio": "2,50€","alergenos": ["free-alergenos"]},
-      {"nombre": "Zumo de tomate", "descripcion": "Zumo natural de tomate.", "precio": "2,50€","alergenos": ["free-alergenos"]},
-      {"nombre": "Zumo de piña", "descripcion": "Zumo natural de piña.", "precio": "2,50€","alergenos": ["free-alergenos"]},
-      {"nombre": "Zumo de melocotón", "descripcion": "Zumo natural de melocotón.", "precio": "2,50€","alergenos": ["free-alergenos"]},
-      {"nombre": "Zumo de naranja", "descripcion": "Zumo natural de naranja.", "precio": "2,50€","alergenos": ["free-alergenos"]},
-      {"nombre": "Tinto de verano con limón", "descripcion": "Bebida refrescante con vino y limón.", "precio": "3,00€","alergenos": ["sulfitos"]},
-      {"nombre": "Tinto de verano con casera", "descripcion": "Bebida refrescante con vino y gaseosa.", "precio": "3,00€","alergenos": ["sulfitos"]},
-      {"nombre": "Agua con gas", "descripcion": "Agua mineral carbonatada.", "precio": "2,90€","alergenos": ["free-alergenos"]},
-      {"nombre": "Agua 1/2 litro", "descripcion": "Agua mineral natural.", "precio": "2,10€","alergenos": ["free-alergenos"]},
-      {"nombre": "Zumo de naranja natural", "descripcion": "Zumo de naranja recién exprimido.", "precio": "1,90€","alergenos": ["free-alergenos"]},
-      {"nombre": "Ginger Ale", "descripcion": "Refresco de jengibre.", "precio": "3,10€","alergenos": ["free-alergenos"]}
-    ]
-  },
     {
       "categoria": "Picoteo",
       "productos": [
@@ -207,6 +174,39 @@
         {"nombre": "Brownie casero de nueces con helado", "descripcion": "Brownie con nueces y helado.", "precio": "5,30€", "alergenos": ["gluten", "huevos", "lacteos", "cacahuetes"]}
       ]
     },
+    {
+    "categoria": "Refrescos y Otras Bebidas",
+    "productos": [
+      {"nombre": "Coca Cola", "descripcion": "Refresco clásico.", "precio": "2,80€", "alergenos": ["free-alergenos"]},
+      {"nombre": "Coca Cola Zero", "descripcion": "Refresco sin azúcar.", "precio": "2,80€", "alergenos": ["free-alergenos"]},
+      {"nombre": "Coca Cola Zero Zero", "descripcion": "Refresco sin azúcar y sin cafeína.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Fanta Naranja", "descripcion": "Refresco de naranja.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Fanta Limón", "descripcion": "Refresco de limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Aquarius Limón", "descripcion": "Bebida isotónica sabor limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Aquarius Naranja", "descripcion": "Bebida isotónica sabor naranja.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Fuze Tea Limón", "descripcion": "Té frío sabor limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Fuze Tea Maracuyá", "descripcion": "Té frío sabor maracuyá.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Casera", "descripcion": "Refresco de soda.", "precio": "3,00€","alergenos": ["free-alergenos"]},
+      {"nombre": "Schweppes Limón", "descripcion": "Bebida tónica sabor limón.", "precio": "2,90€","alergenos": ["free-alergenos"]},
+      {"nombre": "Schweppes Naranja", "descripcion": "Bebida tónica sabor naranja.", "precio": "2,90€","alergenos": ["free-alergenos"]},
+      {"nombre": "Sprite", "descripcion": "Refresco de lima-limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Bitter Kas", "descripcion": "Refresco con sabor amargo.", "precio": "3,10€","alergenos": ["free-alergenos"]},
+      {"nombre": "Red Bull", "descripcion": "Bebida energética.", "precio": "3,50€","alergenos": ["free-alergenos"]},
+      {"nombre": "Tónica Hibiscus", "descripcion": "Agua tónica con hibiscus.", "precio": "3,10€","alergenos": ["free-alergenos"]},
+      {"nombre": "Tónica Schweppes", "descripcion": "Agua tónica clásica.", "precio": "2,90€","alergenos": ["free-alergenos"]},
+      {"nombre": "Mosto", "descripcion": "Bebida dulce de uva.", "precio": "2,50€","alergenos": ["free-alergenos"]},
+      {"nombre": "Zumo de tomate", "descripcion": "Zumo natural de tomate.", "precio": "2,50€","alergenos": ["free-alergenos"]},
+      {"nombre": "Zumo de piña", "descripcion": "Zumo natural de piña.", "precio": "2,50€","alergenos": ["free-alergenos"]},
+      {"nombre": "Zumo de melocotón", "descripcion": "Zumo natural de melocotón.", "precio": "2,50€","alergenos": ["free-alergenos"]},
+      {"nombre": "Zumo de naranja", "descripcion": "Zumo natural de naranja.", "precio": "2,50€","alergenos": ["free-alergenos"]},
+      {"nombre": "Tinto de verano con limón", "descripcion": "Bebida refrescante con vino y limón.", "precio": "3,00€","alergenos": ["sulfitos"]},
+      {"nombre": "Tinto de verano con casera", "descripcion": "Bebida refrescante con vino y gaseosa.", "precio": "3,00€","alergenos": ["sulfitos"]},
+      {"nombre": "Agua con gas", "descripcion": "Agua mineral carbonatada.", "precio": "2,90€","alergenos": ["free-alergenos"]},
+      {"nombre": "Agua 1/2 litro", "descripcion": "Agua mineral natural.", "precio": "2,10€","alergenos": ["free-alergenos"]},
+      {"nombre": "Zumo de naranja natural", "descripcion": "Zumo de naranja recién exprimido.", "precio": "1,90€","alergenos": ["free-alergenos"]},
+      {"nombre": "Ginger Ale", "descripcion": "Refresco de jengibre.", "precio": "3,10€","alergenos": ["free-alergenos"]}
+    ]
+  },
   {
     "categoria": "Cervezas",
     "productos": [
