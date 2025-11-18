@@ -2,7 +2,7 @@
 
 Sitio web para el Bar Bohío, donde los usuarios pueden consultar el menú de desayunos, raciones, hamburguesas, bocadillos, bebidas, postres, promociones y datos de contacto.
 
-**[Ver la web en línea](https://byruby12.github.io/BarBohio/)**
+**[Ver la web en línea](https://byruby12.github.io/BohioBar/)**
 
 ## Características
 
@@ -42,3 +42,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o pull request para
 ## Licencia
 
 Creado por ByRuby12 © 2025
+
