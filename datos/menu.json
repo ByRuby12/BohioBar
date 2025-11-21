@@ -283,8 +283,8 @@
       "productos": [
         {"nombre": "Baileys", "descripcion": "Licor irlandés cremoso de café y chocolate. Precio: (Chupito/Copa Baileys)", "precio": "2,20€ - 4,70€", "alergenos": ["lacteos"]},
         {"nombre": "Licor Hierbas Ruavieja", "descripcion": "Exquisito licor de hierbas aromáticas. Precio: (Chupito/Copa Hierbas)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Orujo Blanco Ruavieja", "descripcion": "Orujo blanco puro y tradicional. Precio: (Chupito/Copa Orujo)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Licor Café Ruavieja", "descripcion": "Licor de café intenso y aromático. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Orujo Blanco Ruavieja", "descripcion": "Orujo blanco puro y tradicional. Precio: (Chupito/Copa Orujo Blanco)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Licor Café Ruavieja", "descripcion": "Licor de café intenso y aromático. Precio: (Chupito/Copa Café Ruavieja)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Crema Ruavieja", "descripcion": "Licor cremoso ideal para postres o café. Precio: (Chupito/Copa Café)", "precio": "2,00€ - 3,20€", "alergenos": ["lacteos"]},
         {"nombre": "Pacharán Ruavieja", "descripcion": "Licor de endrinas con sabor tradicional. Precio: (Chupito/Copa Pacharán)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Jagermeister", "descripcion": "Licor alemán de hierbas con sabor intenso y especiado. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,20€ - 4,70€ - 6,30€", "alergenos": ["free-alergenos"]},
@@ -367,3 +367,4 @@
     "productos": []
   }
 ]
+
