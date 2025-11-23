@@ -3,7 +3,7 @@
   "direccion": "C. Huesca, 12, Local 3, 28934 Móstoles, Madrid",
   "telefono": "910941510",
   "email": "lecaleca2025@hotmail.com",
-  "horario": "Martes a Domingo 7:00 a 01:00",
+  "horario": "Martes a Domingo 8:00 a 01:00",
   "enlaceGoogleMaps": "https://g.page/r/CUCO1uM9eijzEBE/review",
   "logo": "imagenes/logo-bar.png",
   "banner": "imagenes/banner-bar.jpg",
@@ -139,4 +139,5 @@
     "color-galeria-modal-bg": "#000000E6",
     "color-galeria-modal-contador-bg": "#000000CC"
   }
+
 }
