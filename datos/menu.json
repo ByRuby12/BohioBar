@@ -171,7 +171,7 @@
       "productos": [
         {"nombre": "Tarta de muerte por chocolate", "descripcion": "Tarta de chocolate.", "precio": "5,20€", "alergenos": ["gluten", "huevos", "lacteos"]},
         {"nombre": "Tarta de queso estilo NY", "descripcion": "Tarta de queso estilo Nueva York.", "precio": "5,20€", "alergenos": ["gluten", "huevos", "lacteos"]},
-        {"nombre": "Brownie casero de nueces con helado", "descripcion": "Brownie con nueces y helado.", "precio": "5,30€", "alergenos": ["gluten", "huevos", "lacteos", "cacahuetes"]}
+        {"nombre": "Brownie casero de nueces con helado", "descripcion": "Brownie con nueces y helado.", "precio": "5,30€", "alergenos": ["gluten", "huevos", "lacteos", "frutos"]}
       ]
     },
     {
@@ -296,10 +296,10 @@
         {"nombre": "Licor Manzana", "descripcion": "Licor de manzana fresca y aromática. Precio: (Chupito/Copa Licor Manzana)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Licor Melocotón", "descripcion": "Licor dulce y afrutado de melocotón. Precio: (Chupito/Copa Licor Melocotón)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Jose Cuervo", "descripcion": "Tequila clásico con sabor auténtico. Precio: (Chupito/Copa Jose Cuervo)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Frangelico", "descripcion": "Licor de avellanas con aroma dulce y elegante. Precio: (Chupito/Copa Frangelico)", "precio": "2,20€ - 3,80€", "alergenos": ["cacahuetes"]},
+        {"nombre": "Frangelico", "descripcion": "Licor de avellanas con aroma dulce y elegante. Precio: (Chupito/Copa Frangelico)", "precio": "2,20€ - 3,80€", "alergenos": ["frutos"]},
         {"nombre": "Limonchelo", "descripcion": "Licor cítrico refrescante de limón. Precio: (Chupito/Copa Limonchelo)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Cointreau", "descripcion": "Licor de naranja con sabor equilibrado y brillante. Precio: (Chupito/Copa Cointreau)", "precio": "2,50€ - 5,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Disaronno", "descripcion": "Licor de almendra con un toque dulce y elegante. Precio: (Chupito/Copa Disaronno)", "precio": "2,50€ - 5,00€", "alergenos": ["cacahuetes"]}
+        {"nombre": "Disaronno", "descripcion": "Licor de almendra con un toque dulce y elegante. Precio: (Chupito/Copa Disaronno)", "precio": "2,50€ - 5,00€", "alergenos": ["frutos"]}
       ]
     },
     {
@@ -367,4 +367,5 @@
     "productos": []
   }
 ]
+
 
