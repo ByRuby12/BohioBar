@@ -234,7 +234,8 @@
       {"nombre": "Tercio Estrella sin Alcohol", "descripcion": "Cerveza Estrella sin alcohol, refrescante y ligera.", "precio": "2,95€", "alergenos": ["free-alergenos"]},
       {"nombre": "Tercio Mahou 5 Estrellas", "descripcion": "Cerveza Mahou 5 Estrellas, sabor equilibrado y clásico.", "precio": "2,95€", "alergenos": ["free-alergenos"]},
       {"nombre": "Tercio Radler", "descripcion": "Cerveza Radler, mezcla de cerveza con limón refrescante.", "precio": "2,95€", "alergenos": ["free-alergenos"]},
-      {"nombre": "Tercio Heineken", "descripcion": "Cerveza Heineken en botella de 33cl, sabor suave y reconocible.", "precio": "3,00€", "alergenos": ["free-alergenos"]}
+      {"nombre": "Tercio Heineken", "descripcion": "Cerveza Heineken en botella de 33cl, sabor suave y reconocible.", "precio": "3,00€", "alergenos": ["free-alergenos"]},
+      {"nombre": "Barrica de Mahou", "descripcion": "Cerveza Mahou en barrica, sabor equilibrado y fresco.", "precio": "3,95€", "alergenos": ["free-alergenos"]}
     ]
   },
   {
@@ -287,9 +288,9 @@
         {"nombre": "Licor Café Ruavieja", "descripcion": "Licor de café intenso y aromático. Precio: (Chupito/Copa Café Ruavieja)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Crema Ruavieja", "descripcion": "Licor cremoso ideal para postres o café. Precio: (Chupito/Copa Café)", "precio": "2,00€ - 3,20€", "alergenos": ["lacteos"]},
         {"nombre": "Pacharán Ruavieja", "descripcion": "Licor de endrinas con sabor tradicional. Precio: (Chupito/Copa Pacharán)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Jagermeister", "descripcion": "Licor alemán de hierbas con sabor intenso y especiado. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,20€ - 4,70€ - 6,30€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Soberano", "descripcion": "Licor de brandy con aroma suave y equilibrado. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 3,20€ - 5,80€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Terry", "descripcion": "Brandy de calidad con un toque de suavidad aromática. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,10€ - 3,20€ - 5,80€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Jagermeister", "descripcion": "Licor alemán de hierbas con sabor intenso y especiado. Precio: (Chupito/Copa Pequeña)", "precio": "2,20€ - 4,70€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Soberano", "descripcion": "Licor de brandy con aroma suave y equilibrado. Precio: (Chupito/Copa Pequeña)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Terry", "descripcion": "Brandy de calidad con un toque de suavidad aromática. Precio: (Chupito/Copa Pequeña)", "precio": "2,10€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Castellana", "descripcion": "Licor equilibrado y tradicional. Precio: (Chupito/Copa Licor Castellana)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Licor Sin, Manzana", "descripcion": "Refrescante licor de manzana. Precio: (Chupito/Copa Licor Sin. Manzana)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Licor Sin, Melocotón", "descripcion": "Dulce licor de melocotón. Precio: (Chupito/Copa Licor Sin. Melocotón)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
@@ -305,49 +306,49 @@
     {
       "categoria": "Whiskies",
       "productos": [
-        {"nombre": "White Label", "descripcion": "Whisky suave y equilibrado. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Johnnie Walker Red", "descripcion": "Whisky clásico, ligero y fácil de disfrutar. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Johnnie Walker Black", "descripcion": "Whisky intenso y aromático, con cuerpo y carácter. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,20€ - 5,00€ - 9,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "DYK", "descripcion": "Whisky de sabor equilibrado y suave. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "JB", "descripcion": "Whisky ligero y fácil de beber. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Cutty Sark", "descripcion": "Whisky con aroma delicado y sabor suave. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Chivas Regal", "descripcion": "Whisky premium de sabor redondo y elegante. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,20€ - 5,00€ - 9,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Ballantines", "descripcion": "Whisky suave, redondo y con notas dulces. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,20€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Jim Beam", "descripcion": "Whisky bourbon con aroma intenso y ligero toque dulce. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,20€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]}
+        {"nombre": "White Label", "descripcion": "Whisky suave y equilibrado. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Johnnie Walker Red", "descripcion": "Whisky clásico, ligero y fácil de disfrutar. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Johnnie Walker Black", "descripcion": "Whisky intenso y aromático, con cuerpo y carácter. Precio: (Chupito/Copa Grande)", "precio": "3,20€ - 9,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "DYK", "descripcion": "Whisky de sabor equilibrado y suave. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "JB", "descripcion": "Whisky ligero y fácil de beber. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Cutty Sark", "descripcion": "Whisky con aroma delicado y sabor suave. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Chivas Regal", "descripcion": "Whisky premium de sabor redondo y elegante. Precio: (Chupito/Copa Grande)", "precio": "3,20€ - 9,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Ballantines", "descripcion": "Whisky suave, redondo y con notas dulces. Precio: (Chupito/Copa Grande)", "precio": "2,20€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Jim Beam", "descripcion": "Whisky bourbon con aroma intenso y ligero toque dulce. Precio: (Chupito/Copa Grande)", "precio": "2,20€ - 7,00€", "alergenos": ["free-alergenos"]}
       ]
     },
     {
       "categoria": "Rones",
       "productos": [
-        {"nombre": "Brugal Añejo", "descripcion": "Ron añejo con notas suaves de caramelo y vainilla. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Havana 7", "descripcion": "Ron premium con sabor profundo, aromas de roble y especias. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,00€ - 4,70€ - 7,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Legendario", "descripcion": "Ron oscuro y aromático con suaves notas de cacao y frutas secas. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,00€ - 4,70€ - 7,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Pampero", "descripcion": "Ron venezolano con un equilibrio perfecto entre dulzor y cuerpo. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Barceló Añejo", "descripcion": "Ron de añejamiento prolongado, con aromas suaves y redondos. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Bacardi Blanco", "descripcion": "Ron blanco ligero y versátil, perfecto para cócteles. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Santa Teresa", "descripcion": "Ron venezolano elegante con notas dulces y afrutadas. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Cacique", "descripcion": "Ron suave con aroma a miel y un final ligero y persistente. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Areucas", "descripcion": "Ron ligero y agradable, ideal para disfrutar solo o en combinados. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 7,00€", "alergenos": ["free-alergenos"]}
+        {"nombre": "Brugal Añejo", "descripcion": "Ron añejo con notas suaves de caramelo y vainilla. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Havana 7", "descripcion": "Ron premium con sabor profundo, aromas de roble y especias. Precio: (Chupito/Copa Grande)", "precio": "3,00€ - 7,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Legendario", "descripcion": "Ron oscuro y aromático con suaves notas de cacao y frutas secas. Precio: (Chupito/Copa Grande)", "precio": "3,00€ - 7,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Pampero", "descripcion": "Ron venezolano con un equilibrio perfecto entre dulzor y cuerpo. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Barceló Añejo", "descripcion": "Ron de añejamiento prolongado, con aromas suaves y redondos. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Bacardi Blanco", "descripcion": "Ron blanco ligero y versátil, perfecto para cócteles. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Santa Teresa", "descripcion": "Ron venezolano elegante con notas dulces y afrutadas. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Cacique", "descripcion": "Ron suave con aroma a miel y un final ligero y persistente. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Areucas", "descripcion": "Ron ligero y agradable, ideal para disfrutar solo o en combinados. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]}
       ]
     },
     {
       "categoria": "Ginebras & Vodka",
       "productos": [
-        {"nombre": "Beefeater", "descripcion": "Ginebra clásica de Londres, con notas botánicas intensas. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,80€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Larius", "descripcion": "Ginebra suave con delicado aroma herbal y cítrico. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Tanqueray", "descripcion": "Ginebra aromática con un sabor potente y equilibrado. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,80€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Bombay Sapphire", "descripcion": "Ginebra premium con finas notas de enebro y especias. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,80€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Seagram´s", "descripcion": "Ginebra ligera y versátil, perfecta para combinados. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,00€ - 6,80€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Hendrick´s", "descripcion": "Ginebra premium con toques de pepino y rosa, sofisticada y elegante. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,00€ - 5,00€ - 8,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Martin Millers", "descripcion": "Ginebra suave y refinada, con aroma cítrico y equilibrado. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,50€ - 5,00€ - 8,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Brockmans", "descripcion": "Ginebra afrutada y aromática, con notas de arándano y cítricos. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,50€ - 5,00€ - 8,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Smirnoff", "descripcion": "Vodka suave y neutro, ideal para combinados y cócteles. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Buldog", "descripcion": "Ginebra aromática con intenso sabor a enebro y notas botánicas. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,50€ - 5,00€ - 8,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Nordes", "descripcion": "Ginebra gallega con delicadas notas florales y herbales. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Puerto de Indias", "descripcion": "Ginebra suave con intenso aroma a fresas naturales. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Absolut", "descripcion": "Vodka puro y limpio, con sabor suave y neutral. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "2,00€ - 4,20€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "G´Vine", "descripcion": "Ginebra francesa refinada con notas de uva y flores. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,50€ - 5,00€ - 8,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Mombasa", "descripcion": "Ginebra aromática con toque exótico y especiado. Precio: (Chupito/Copa Pequeña/Copa Grande)", "precio": "3,50€ - 5,00€ - 8,00€", "alergenos": ["free-alergenos"]}
+        {"nombre": "Beefeater", "descripcion": "Ginebra clásica de Londres, con notas botánicas intensas. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,80€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Larius 12", "descripcion": "Ginebra suave con delicado aroma herbal y cítrico. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Tanqueray", "descripcion": "Ginebra aromática con un sabor potente y equilibrado. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,80€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Bombay Sapphire", "descripcion": "Ginebra premium con finas notas de enebro y especias. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,80€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Seagram´s", "descripcion": "Ginebra ligera y versátil, perfecta para combinados. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 6,80€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Hendrick´s", "descripcion": "Ginebra premium con toques de pepino y rosa, sofisticada y elegante. Precio: (Chupito/Copa Grande)", "precio": "3,00€ - 8,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Martin Millers", "descripcion": "Ginebra suave y refinada, con aroma cítrico y equilibrado. Precio: (Chupito/Copa Grande)", "precio": "3,50€ - 8,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Brockmans", "descripcion": "Ginebra afrutada y aromática, con notas de arándano y cítricos. Precio: (Chupito/Copa Grande)", "precio": "3,50€ - 8,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Smirnoff", "descripcion": "Vodka suave y neutro, ideal para combinados y cócteles. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Buldog", "descripcion": "Ginebra aromática con intenso sabor a enebro y notas botánicas. Precio: (Chupito/Copa Grande)", "precio": "3,50€ - 8,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Nordes", "descripcion": "Ginebra gallega con delicadas notas florales y herbales. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Puerto de Indias", "descripcion": "Ginebra suave con intenso aroma a fresas naturales. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Absolut", "descripcion": "Vodka puro y limpio, con sabor suave y neutral. Precio: (Chupito/Copa Grande)", "precio": "2,00€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "G´Vine", "descripcion": "Ginebra francesa refinada con notas de uva y flores. Precio: (Chupito/Copa Grande)", "precio": "3,50€ - 8,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Mombasa", "descripcion": "Ginebra aromática con toque exótico y especiado. Precio: (Chupito/Copa Grande)", "precio": "3,50€ - 8,00€", "alergenos": ["free-alergenos"]}
       ]
     },
   {
@@ -367,5 +368,6 @@
     "productos": []
   }
 ]
+
 
 
