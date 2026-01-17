@@ -182,8 +182,8 @@
       {"nombre": "Coca Cola Zero Zero", "descripcion": "Refresco sin azúcar y sin cafeína.", "precio": "2,80€","alergenos": ["free-alergenos"]},
       {"nombre": "Fanta Naranja", "descripcion": "Refresco de naranja.", "precio": "2,80€","alergenos": ["free-alergenos"]},
       {"nombre": "Fanta Limón", "descripcion": "Refresco de limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Aquarius Limón", "descripcion": "Bebida isotónica sabor limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
-      {"nombre": "Aquarius Naranja", "descripcion": "Bebida isotónica sabor naranja.", "precio": "2,80€","alergenos": ["free-alergenos"]},
+      {"nombre": "Aquarius Limón", "descripcion": "Bebida isotónica sabor limón.", "precio": "2,90€","alergenos": ["free-alergenos"]},
+      {"nombre": "Aquarius Naranja", "descripcion": "Bebida isotónica sabor naranja.", "precio": "2,90€","alergenos": ["free-alergenos"]},
       {"nombre": "Fuze Tea Limón", "descripcion": "Té frío sabor limón.", "precio": "2,80€","alergenos": ["free-alergenos"]},
       {"nombre": "Fuze Tea Maracuyá", "descripcion": "Té frío sabor maracuyá.", "precio": "2,80€","alergenos": ["free-alergenos"]},
       {"nombre": "Casera", "descripcion": "Refresco de soda.", "precio": "3,00€","alergenos": ["free-alergenos"]},
@@ -368,6 +368,7 @@
     "productos": []
   }
 ]
+
 
 
 
