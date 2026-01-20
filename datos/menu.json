@@ -355,11 +355,20 @@
     "categoria": "Galería",
     "productos": [ 
       {"nombre": "Imagen 1", "descripcion": "Descripción de la imagen 1", "url": "imagenes/imagen1.png"},
-      {"nombre": "Imagen 1", "descripcion": "Descripción de la imagen 1", "url": "imagenes/imagen1.png"},
-      {"nombre": "Imagen 2", "descripcion": "Descripción de la imagen 2", "url": "imagenes/imagen1.png"},
-      {"nombre": "Imagen 2", "descripcion": "Descripción de la imagen 2", "url": "imagenes/imagen1.png"},
-      {"nombre": "Imagen 3", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen1.png"},
-      {"nombre": "Imagen 3", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen1.png"}
+      {"nombre": "Imagen 2", "descripcion": "Descripción de la imagen 1", "url": "imagenes/imagen2.png"},
+      {"nombre": "Imagen 3", "descripcion": "Descripción de la imagen 2", "url": "imagenes/imagen3.png"},
+      {"nombre": "Imagen 4", "descripcion": "Descripción de la imagen 2", "url": "imagenes/imagen4.png"},
+      {"nombre": "Imagen 5", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen5.png"},
+      {"nombre": "Imagen 6", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen6.png"},
+      {"nombre": "Imagen 7", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen7.png"},
+      {"nombre": "Imagen 8", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen8.png"},
+      {"nombre": "Imagen 9", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen9.png"},
+      {"nombre": "Imagen 10", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen10.png"},
+      {"nombre": "Imagen 11", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen11.png"},
+      {"nombre": "Imagen 12", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen12.png"},
+      {"nombre": "Imagen 13", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen13.png"},
+      {"nombre": "Imagen 14", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen14.png"},
+      {"nombre": "Imagen 15", "descripcion": "Descripción de la imagen 3", "url": "imagenes/imagen15.png"}
 
     ]
   },
