@@ -94,36 +94,36 @@
     {
       "categoria": "Picoteo",
       "productos": [
-        {"nombre": "Croquetas caseras de jamón", "descripcion": "Croquetas caseras de jamón.", "precio": "9,00€", "alergenos": ["gluten", "lacteos", "huevos"]},
-        {"nombre": "Brava-Alioli con pollo", "descripcion": "Patatas bravas con alioli y pollo.", "precio": "11,00€", "alergenos": ["lacteos", "huevos"]},
-        {"nombre": "Brava-Alioli", "descripcion": "Patatas bravas con alioli.", "precio": "8,00€", "alergenos": ["lacteos", "huevos"]},
-        {"nombre": "Oreja a la plancha", "descripcion": "Oreja de cerdo a la plancha.", "precio": "10,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Nachos 'Bohio'", "descripcion": "Nachos con cheddar, carne de ternera picada, pico de gallo, jalapeños, guacamole y crema agria.", "precio": "11,00€", "alergenos": ["lacteos"]},
-        {"nombre": "Fingers de pollo con salsa de mostaza", "descripcion": "Pollo empanado con salsa de mostaza.", "precio": "10,00€", "alergenos": ["gluten", "huevos"]},
-        {"nombre": "Alitas de pollo en salsa americana", "descripcion": "Alitas de pollo en salsa americana.", "precio": "8,50€", "alergenos": ["free-alergenos"]}
+        {"nombre": "Croquetas caseras de jamón", "descripcion": "Croquetas caseras de jamón.", "precio": "10,80€", "alergenos": ["gluten", "lacteos", "huevos"]},
+        {"nombre": "Brava-Alioli con pollo", "descripcion": "Patatas bravas con alioli y pollo.", "precio": "12,60€", "alergenos": ["lacteos", "huevos"]},
+        {"nombre": "Brava-Alioli", "descripcion": "Patatas bravas con alioli.", "precio": "9,00€", "alergenos": ["lacteos", "huevos"]},
+        {"nombre": "Oreja a la plancha", "descripcion": "Oreja de cerdo a la plancha.", "precio": "12,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Nachos 'Bohio'", "descripcion": "Nachos con cheddar, carne de ternera picada, pico de gallo, jalapeños, guacamole y crema agria.", "precio": "13,20€", "alergenos": ["lacteos"]},
+        {"nombre": "Fingers de pollo con salsa de mostaza", "descripcion": "Pollo empanado con salsa de mostaza.", "precio": "12,00€", "alergenos": ["gluten", "huevos"]},
+        {"nombre": "Alitas de pollo en salsa americana", "descripcion": "Alitas de pollo en salsa americana.", "precio": "8,90€", "alergenos": ["free-alergenos"]}
       ]
     },
     {
       "categoria": "Del Mar",
       "productos": [
         {"nombre": "Calamares a la romana", "descripcion": "Calamares rebozados.", "precio": "10,95€", "alergenos": ["gluten", "huevos", "crustaceos"]},
-        {"nombre": "Chipirones salteados sobre cebolla caramelizada y alioli negro, decorado con tina de calamar y ajonesa", "descripcion": "Chipirones salteados con alioli negro.", "precio": "13,90€", "alergenos": ["crustaceos", "huevos"]},
+        {"nombre": "Chipirones salteados sobre cebolla caramelizada y alioli negro, decorado con tina de calamar y ajonesa", "descripcion": "Chipirones salteados con alioli negro.", "precio": "16,60€", "alergenos": ["crustaceos", "huevos"]},
         {"nombre": "Fritura Malagueña (Bienmesabe, Chopitos, Calamares, Boquerones)", "descripcion": "Fritura de pescado y marisco.", "precio": "17,40€", "alergenos": ["gluten", "crustaceos", "huevos"]}
       ]
     },
     {
       "categoria": "Huevos Rotos",
       "productos": [
-        {"nombre": "Huevos pa'romper con jamón ibérico", "descripcion": "Huevos rotos con jamón ibérico.", "precio": "10,90€", "alergenos": ["huevos"]},
-        {"nombre": "Huevos pa'romper con morcilla", "descripcion": "Huevos rotos con morcilla.", "precio": "11,20€", "alergenos": ["huevos"]},
-        {"nombre": "Huevos pa'romper con bacon crujiente y crema camembert", "descripcion": "Huevos rotos con bacon y crema camembert.", "precio": "11,35€", "alergenos": ["huevos", "lacteos"]}
+        {"nombre": "Huevos pa'romper con jamón ibérico", "descripcion": "Huevos rotos con jamón ibérico.", "precio": "12,90€", "alergenos": ["huevos"]},
+        {"nombre": "Huevos pa'romper con morcilla", "descripcion": "Huevos rotos con morcilla.", "precio": "12,90€", "alergenos": ["huevos"]},
+        {"nombre": "Huevos pa'romper con bacon crujiente y crema camembert", "descripcion": "Huevos rotos con bacon y crema camembert.", "precio": "12,90€", "alergenos": ["huevos", "lacteos"]}
       ]
     },
     {
       "categoria": "Tostas",
       "productos": [
-        {"nombre": "Tosta de jamón con pan tumaca", "descripcion": "Tosta con jamón y pan tumaca.", "precio": "6,80€", "alergenos": ["gluten"]},
-        {"nombre": "Tosta gambas y gulas con alioli", "descripcion": "Tosta con gambas y gulas.", "precio": "6,80€", "alergenos": ["gluten", "crustaceos", "huevos"]},
+        {"nombre": "Tosta de jamón con pan tumaca", "descripcion": "Tosta con jamón y pan tumaca.", "precio": "8,80€", "alergenos": ["gluten"]},
+        {"nombre": "Tosta gambas y gulas con alioli", "descripcion": "Tosta con gambas y gulas.", "precio": "8,80€", "alergenos": ["gluten", "crustaceos", "huevos"]},
         {"nombre": "Tosta de queso de cabra con cebolla confitada", "descripcion": "Tosta con queso de cabra y cebolla confitada.", "precio": "6,95€", "alergenos": ["gluten", "lacteos"]},
         {"nombre": "Tosta solomillo ibérico con cebolla confitada y reducción de PX", "descripcion": "Tosta con solomillo ibérico y reducción de PX.", "precio": "6,80€", "alergenos": ["gluten"]}
       ]
@@ -131,15 +131,15 @@
     {
       "categoria": "Carnes",
       "productos": [
-        {"nombre": "Tacos de solomillo de cerdo, rúcula, cebolla morada y adobo Tennessee (3 unidades)", "descripcion": "Tacos de solomillo de cerdo con rúcula y cebolla.", "precio": "11,90€", "alergenos": ["gluten"]},
-        {"nombre": "Lomo bajo de vaca (500) trinchado y acompañado de patatas", "descripcion": "Lomo bajo de vaca trinchado con patatas.", "precio": "25,60€", "alergenos": ["free-alergenos"]}
+        {"nombre": "Tacos de solomillo de cerdo, rúcula, cebolla morada y adobo Tennessee (3 unidades)", "descripcion": "Tacos de solomillo de cerdo con rúcula y cebolla.", "precio": "13,00€", "alergenos": ["gluten"]},
+        {"nombre": "Lomo bajo de vaca (500) trinchado y acompañado de patatas", "descripcion": "Lomo bajo de vaca trinchado con patatas.", "precio": "28,95€", "alergenos": ["free-alergenos"]}
       ]
     },
     {
       "categoria": "Hamburguesas",
       "productos": [
-        {"nombre": "Burguer de carne de vaca, pan brioche, bacon, pepinillo y queso cheddar", "descripcion": "Hamburguesa de carne de vaca con queso cheddar y bacon.", "precio": "10,90€", "alergenos": ["gluten", "lacteos"]},
-        {"nombre": "Burguer de pollo picado, pan brioche, bacon y queso cheddar", "descripcion": "Hamburguesa de pollo con queso cheddar y bacon.", "precio": "9,90€", "alergenos": ["gluten", "lacteos"]}
+        {"nombre": "Burguer de carne de vaca, pan brioche, bacon, pepinillo y queso cheddar", "descripcion": "Hamburguesa de carne de vaca con queso cheddar y bacon.", "precio": "11,90€", "alergenos": ["gluten", "lacteos"]},
+        {"nombre": "Burguer de pollo picado, pan brioche, bacon y queso cheddar", "descripcion": "Hamburguesa de pollo con queso cheddar y bacon.", "precio": "10,90€", "alergenos": ["gluten", "lacteos"]}
       ]
     },
     {
@@ -152,26 +152,26 @@
     {
       "categoria": "Ensaladas",
       "productos": [
-        {"nombre": "Ensaladilla rusa", "descripcion": "Ensaladilla con mayonesa.", "precio": "8,00€", "alergenos": ["huevos"]},
-        {"nombre": "Ensalada de queso de cabra con cebolla caramelizada y salsa Modena", "descripcion": "Ensalada con queso de cabra y salsa Modena.", "precio": "10,00€", "alergenos": ["lacteos"]},
-        {"nombre": "Ventresca con tomate rosa y cebolla", "descripcion": "Ensalada con ventresca, tomate y cebolla.", "precio": "11,00€", "alergenos": ["pescado"]},
-        {"nombre": "Ensalada César 'Estilo Bohio'", "descripcion": "Ensalada César.", "precio": "9,00€", "alergenos": ["huevos", "pescado", "lacteos"]}
+        {"nombre": "Ensaladilla rusa", "descripcion": "Ensaladilla con mayonesa.", "precio": "9,60€", "alergenos": ["huevos"]},
+        {"nombre": "Ensalada de queso de cabra con cebolla caramelizada y salsa Modena", "descripcion": "Ensalada con queso de cabra y salsa Modena.", "precio": "11,90€", "alergenos": ["lacteos"]},
+        {"nombre": "Ventresca con tomate rosa y cebolla", "descripcion": "Ensalada con ventresca, tomate y cebolla.", "precio": "12,90€", "alergenos": ["pescado"]},
+        {"nombre": "Ensalada César 'Estilo Bohio'", "descripcion": "Ensalada César.", "precio": "10,80€", "alergenos": ["huevos", "pescado", "lacteos"]}
       ]
     },
     {
       "categoria": "Verduritas",
       "productos": [
         {"nombre": "Flor de alcachofa con jamón crujiente y mousse de pato", "descripcion": "Flor de alcachofa con jamón y mousse de pato.", "precio": "4,00€", "alergenos": ["lacteos", "huevos"]},
-        {"nombre": "Palitos de berenjena fresca en tempura con salmorejo cordobés", "descripcion": "Berenjena en tempura con salmorejo.", "precio": "11,00€", "alergenos": ["gluten", "huevos"]},
-        {"nombre": "Salteado de Nikkei de verduras", "descripcion": "Salteado de verduras estilo Nikkei.", "precio": "10,50€", "alergenos": ["free-alergenos"]}
+        {"nombre": "Palitos de berenjena fresca en tempura con salmorejo cordobés", "descripcion": "Berenjena en tempura con salmorejo.", "precio": "12,90€", "alergenos": ["gluten", "huevos"]},
+        {"nombre": "Salteado de Nikkei de verduras", "descripcion": "Salteado de verduras estilo Nikkei.", "precio": "12,20€", "alergenos": ["free-alergenos"]}
       ]
     },
     {
       "categoria": "Postres",
       "productos": [
-        {"nombre": "Tarta de muerte por chocolate", "descripcion": "Tarta de chocolate.", "precio": "5,20€", "alergenos": ["gluten", "huevos", "lacteos"]},
-        {"nombre": "Tarta de queso estilo NY", "descripcion": "Tarta de queso estilo Nueva York.", "precio": "5,20€", "alergenos": ["gluten", "huevos", "lacteos"]},
-        {"nombre": "Brownie casero de nueces con helado", "descripcion": "Brownie con nueces y helado.", "precio": "5,30€", "alergenos": ["gluten", "huevos", "lacteos", "frutos"]}
+        {"nombre": "Tarta de muerte por chocolate", "descripcion": "Tarta de chocolate.", "precio": "6,20€", "alergenos": ["gluten", "huevos", "lacteos"]},
+        {"nombre": "Tarta de queso estilo NY", "descripcion": "Tarta de queso estilo Nueva York.", "precio": "6,20€", "alergenos": ["gluten", "huevos", "lacteos"]},
+        {"nombre": "Brownie casero de nueces con helado", "descripcion": "Brownie con nueces y helado.", "precio": "6,20€", "alergenos": ["gluten", "huevos", "lacteos", "frutos"]}
       ]
     },
     {
@@ -377,9 +377,3 @@
     "productos": []
   }
 ]
-
-
-
-
-
-
