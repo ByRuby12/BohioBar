@@ -124,8 +124,8 @@
       "productos": [
         {"nombre": "Tosta de jamón con pan tumaca", "descripcion": "Tosta con jamón y pan tumaca.", "precio": "8,80€", "alergenos": ["gluten"]},
         {"nombre": "Tosta gambas y gulas con alioli", "descripcion": "Tosta con gambas y gulas.", "precio": "8,80€", "alergenos": ["gluten", "crustaceos", "huevos"]},
-        {"nombre": "Tosta de queso de cabra con cebolla confitada", "descripcion": "Tosta con queso de cabra y cebolla confitada.", "precio": "6,95€", "alergenos": ["gluten", "lacteos"]},
-        {"nombre": "Tosta solomillo ibérico con cebolla confitada y reducción de PX", "descripcion": "Tosta con solomillo ibérico y reducción de PX.", "precio": "6,80€", "alergenos": ["gluten"]}
+        {"nombre": "Tosta de queso de cabra con cebolla confitada", "descripcion": "Tosta con queso de cabra y cebolla confitada.", "precio": "8,80€", "alergenos": ["gluten", "lacteos"]},
+        {"nombre": "Tosta solomillo ibérico con cebolla confitada y reducción de PX", "descripcion": "Tosta con solomillo ibérico y reducción de PX.", "precio": "8,80€", "alergenos": ["gluten"]}
       ]
     },
     {
@@ -377,3 +377,4 @@
     "productos": []
   }
 ]
+
