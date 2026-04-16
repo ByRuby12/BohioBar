@@ -198,7 +198,7 @@
       {"nombre": "Tinto de verano con casera", "descripcion": "Bebida refrescante con vino y gaseosa.", "precio": "3,50€","alergenos": ["sulfitos"]},
       {"nombre": "Agua con gas", "descripcion": "Agua mineral carbonatada.", "precio": "3,00€","alergenos": ["free-alergenos"]},
       {"nombre": "Agua 1/2 litro", "descripcion": "Agua mineral natural.", "precio": "2,10€","alergenos": ["free-alergenos"]},
-      {"nombre": "Zumo de naranja natural", "descripcion": "Zumo de naranja recién exprimido.", "precio": "20€","alergenos": ["free-alergenos"]},
+      {"nombre": "Zumo de naranja natural", "descripcion": "Zumo de naranja recién exprimido.", "precio": "2,00€","alergenos": ["free-alergenos"]},
       {"nombre": "Ginger Ale", "descripcion": "Refresco de jengibre.", "precio": "3,10€","alergenos": ["free-alergenos"]}
     ]
   },
@@ -282,19 +282,19 @@
         {"nombre": "Licor Café Ruavieja", "descripcion": "Licor de café intenso y aromático. Precio: (Chupito/Copa Café Ruavieja)", "precio": "2,50€ - 4,00€", "alergenos": ["free-alergenos"]},
         {"nombre": "Crema Ruavieja", "descripcion": "Licor cremoso ideal para postres o café. Precio: (Chupito/Copa Café)", "precio": "2,50€ - 4,00€", "alergenos": ["lacteos"]},
         {"nombre": "Pacharán Ruavieja", "descripcion": "Licor de endrinas con sabor tradicional. Precio: (Chupito/Copa Pacharán)", "precio": "2,50€ - 4,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Jagermeister", "descripcion": "Licor alemán de hierbas con sabor intenso y especiado. Precio: (Chupito/Copa Pequeña)", "precio": "2,50€ - 4,70€ - 7,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Soberano", "descripcion": "Licor de brandy con aroma suave y equilibrado. Precio: (Chupito/Copa Pequeña)", "precio": "2,00€ - 3,00€ - 6,00€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Terry", "descripcion": "Brandy de calidad con un toque de suavidad aromática. Precio: (Chupito/Copa Pequeña)", "precio": "2,10€ - 3,20€ - 6,20€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Jagermeister", "descripcion": "Licor alemán de hierbas con sabor intenso y especiado. Precio: (Chupito/Copa Pequeña/Copa)", "precio": "2,50€ - 4,70€ - 7,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Soberano", "descripcion": "Licor de brandy con aroma suave y equilibrado. Precio: (Chupito/Copa Pequeña/Copa)", "precio": "2,00€ - 3,00€ - 6,00€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Terry", "descripcion": "Brandy de calidad con un toque de suavidad aromática. Precio: (Chupito/Copa Pequeña/Copa)", "precio": "2,10€ - 3,20€ - 6,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Castellana", "descripcion": "Licor equilibrado y tradicional. Precio: (Chupito/Copa Licor Castellana)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Licor Sin, Manzana", "descripcion": "Refrescante licor de manzana. Precio: (Chupito/Copa Licor Sin. Manzana)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Licor Sin, Melocotón", "descripcion": "Dulce licor de melocotón. Precio: (Chupito/Copa Licor Sin. Melocotón)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Licor Manzana", "descripcion": "Licor de manzana fresca y aromática. Precio: (Chupito/Copa Licor Manzana)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Licor Melocotón", "descripcion": "Licor dulce y afrutado de melocotón. Precio: (Chupito/Copa Licor Melocotón)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
         {"nombre": "Jose Cuervo", "descripcion": "Tequila clásico con sabor auténtico. Precio: (Chupito/Copa Jose Cuervo)", "precio": "2,50€ - 3,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Frangelico", "descripcion": "Licor de avellanas con aroma dulce y elegante. Precio: (Chupito/Copa Frangelico)", "precio": "4,00€", "alergenos": ["frutos"]},
+        {"nombre": "Frangelico", "descripcion": "Licor de avellanas con aroma dulce y elegante. Precio: (Copa Frangelico)", "precio": "4,00€", "alergenos": ["frutos"]},
         {"nombre": "Limonchelo", "descripcion": "Licor cítrico refrescante de limón. Precio: (Chupito/Copa Limonchelo)", "precio": "2,00€ - 3,20€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Cointreau", "descripcion": "Licor de naranja con sabor equilibrado y brillante. Precio: (Chupito/Copa Cointreau)", "precio": "4,50€", "alergenos": ["free-alergenos"]},
-        {"nombre": "Disaronno", "descripcion": "Licor de almendra con un toque dulce y elegante. Precio: (Chupito/Copa Disaronno)", "precio": "5,00€", "alergenos": ["frutos"]}
+        {"nombre": "Cointreau", "descripcion": "Licor de naranja con sabor equilibrado y brillante. Precio: (Copa Cointreau)", "precio": "4,50€", "alergenos": ["free-alergenos"]},
+        {"nombre": "Disaronno", "descripcion": "Licor de almendra con un toque dulce y elegante. Precio: (Copa Disaronno)", "precio": "5,00€", "alergenos": ["frutos"]}
       ]
     },
     {
