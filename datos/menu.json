@@ -29,7 +29,7 @@
   ]
   },
 {
-  "categoria": "Oferta Desayuno Lunes a Viernes 8 a 12",
+  "categoria": "Oferta Desayuno con Café Lunes a Viernes 8 a 12",
   "productos": [
     {"nombre": "Mollete con tomate y aceite", "descripcion": "Pan mollete tostado con tomate natural y aceite de oliva. Extras disponibles: bacon, york, queso (+1€), jamón ibérico (+1,3€) huevo (+1,2€).", "precio": "3,50€", "alergenos": ["gluten"]},
     {"nombre": "Flauta con tomate y aceite", "descripcion": "Flauta crujiente con tomate triturado y aceite. Extras disponibles: bacon, york, queso (+1€), jamón ibérico (+1,3€) huevo (+1,2€).", "precio": "3,50€", "alergenos": ["gluten"]},
@@ -134,7 +134,9 @@
       "categoria": "Hamburguesas",
       "productos": [
         {"nombre": "Burguer de carne de vaca, pan brioche, bacon, pepinillo y queso cheddar", "descripcion": "Hamburguesa de carne de vaca con queso cheddar y bacon.", "precio": "12,50€", "alergenos": ["gluten", "lacteos"]},
-        {"nombre": "Burguer de pollo picado, pan brioche, bacon y queso cheddar", "descripcion": "Hamburguesa de pollo con queso cheddar y bacon.", "precio": "11,50€", "alergenos": ["gluten", "lacteos"]}
+        {"nombre": "Burguer de pollo picado, pan brioche, bacon y queso cheddar", "descripcion": "Hamburguesa de pollo con queso cheddar y bacon.", "precio": "11,50€", "alergenos": ["gluten", "lacteos"]},
+        {"nombre": "Mini hamburguesas de ternera gallega (4 unidades)", "descripcion": "Cuatro mini hamburguesas elaboradas con ternera gallega, jugosas y llenas de sabor.", "precio": "11,20€", "alergenos": ["gluten"]
+        }
       ]
     },
     {
@@ -157,8 +159,7 @@
       "categoria": "Verduritas",
       "productos": [
         {"nombre": "Flor de alcachofa con jamón crujiente y mousse de pato", "descripcion": "Flor de alcachofa con jamón y mousse de pato.", "precio": "5,00€", "alergenos": ["lacteos", "huevos"]},
-        {"nombre": "Palitos de berenjena fresca en tempura con salmorejo cordobés", "descripcion": "Berenjena en tempura con salmorejo.", "precio": "13,50€", "alergenos": ["gluten", "huevos"]},
-        {"nombre": "Salteado de Nikkei de verduras", "descripcion": "Salteado de verduras estilo Nikkei.", "precio": "12,50€", "alergenos": ["free-alergenos"]}
+        {"nombre": "Palitos de berenjena fresca en tempura", "descripcion": "Berenjena en tempura", "precio": "13,50€", "alergenos": ["gluten", "huevos"]}
       ]
     },
     {
