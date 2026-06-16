@@ -29,7 +29,7 @@
   ]
   },
 {
-  "categoria": "Oferta Desayuno con Café Lunes a Viernes 8 a 12",
+  "categoria": "Oferta Desayuno + Café | L-V 8 a 12",
   "productos": [
     {"nombre": "Mollete con tomate y aceite", "descripcion": "Pan mollete tostado con tomate natural y aceite de oliva. Extras disponibles: bacon, york, queso (+1€), jamón ibérico (+1,3€) huevo (+1,2€).", "precio": "3,50€", "alergenos": ["gluten"]},
     {"nombre": "Flauta con tomate y aceite", "descripcion": "Flauta crujiente con tomate triturado y aceite. Extras disponibles: bacon, york, queso (+1€), jamón ibérico (+1,3€) huevo (+1,2€).", "precio": "3,50€", "alergenos": ["gluten"]},
