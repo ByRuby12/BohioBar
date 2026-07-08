@@ -397,7 +397,7 @@ header {
 
 @media (max-width: 900px) {
   .nav-scroll-wrapper {
-    padding: 0 0.1rem;
+    padding: 7px 1rem;
   }
   .nav-list {
     gap: 0.7rem;
