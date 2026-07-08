@@ -108,7 +108,7 @@
     {
       "categoria": "Huevos Rotos",
       "productos": [
-        {"nombre": "Huevos pa'romper con jamón ibérico", "descripcion": "Huevos rotos con jamón ibérico.", "precio": "13,50€", "alergenos": ["huevos"]},
+        {"nombre": "Huevos pa'romper con jamón", "descripcion": "Huevos rotos con jamón ibérico.", "precio": "13,50€", "alergenos": ["huevos"]},
         {"nombre": "Huevos pa'romper con morcilla", "descripcion": "Huevos rotos con morcilla.", "precio": "13,50€", "alergenos": ["huevos"]},
         {"nombre": "Huevos pa'romper con bacon crujiente y crema camembert", "descripcion": "Huevos rotos con bacon y crema camembert.", "precio": "13,50€", "alergenos": ["huevos", "lacteos"]}
       ]
