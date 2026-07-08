@@ -1,5 +1,6 @@
 function cargarMenuYNavDesdeJSON() {
-  fetch('datos/menu.json')
+  window.currentLanguage = window.currentLanguage || 'es';
+  fetch(getLanguageMenuFile())
     .then(response => response.json())
     .then(data => {
       window.menuData = data;
@@ -16,9 +17,11 @@ function generarNavegadorCategorias(data) {
   navList.innerHTML = '';
   data.forEach((cat, idx) => {
     const li = document.createElement('li');
+    li.dataset.index = idx;
     li.textContent = cat.categoria;
     if (idx === 0) li.classList.add('active');
     li.addEventListener('click', function () {
+      window.currentCategoryIndex = idx;
       document.querySelectorAll('.nav-list li').forEach(el => el.classList.remove('active'));
       this.classList.add('active');
       mostrarProductosPorCategoria(cat.categoria);
@@ -42,6 +45,44 @@ function setActiveCategory(categoria) {
       li.classList.remove('active');
     }
   });
+}
+
+function getLanguageMenuFile() {
+  return window.currentLanguage === 'en' ? 'datos/menu_en.json' : 'datos/menu.json';
+}
+
+function updateLanguageButtonText() {
+  const btn = document.getElementById('language-toggle');
+  if (!btn) return;
+  const isEnglish = window.currentLanguage === 'en';
+  btn.textContent = isEnglish ? 'EN' : 'ES';
+  btn.title = isEnglish ? 'Switch to English' : 'Cambiar a Español';
+  btn.classList.toggle('lang-en', isEnglish);
+  btn.classList.toggle('lang-es', !isEnglish);
+  btn.style.backgroundColor = isEnglish ? '#374151' : '#e5e7eb';
+  btn.style.color = isEnglish ? '#fff' : '#1f2937';
+}
+
+function cargarMenuSegunIdioma() {
+  const currentIndex = typeof window.currentCategoryIndex === 'number' ? window.currentCategoryIndex : 0;
+  fetch(getLanguageMenuFile())
+    .then(response => response.json())
+    .then(data => {
+      window.menuData = data;
+      generarNavegadorCategorias(data);
+      const categoryToShow = data[currentIndex] ? data[currentIndex].categoria : (data.length > 0 ? data[0].categoria : '');
+      if (categoryToShow) {
+        setActiveCategory(categoryToShow);
+        mostrarProductosPorCategoria(categoryToShow);
+      }
+    });
+}
+
+function toggleLanguage() {
+  window.currentLanguage = window.currentLanguage === 'en' ? 'es' : 'en';
+  localStorage.setItem('language', window.currentLanguage);
+  updateLanguageButtonText();
+  cargarMenuSegunIdioma();
 }
 
 function cargarInfoBar(callback) {
@@ -104,8 +145,8 @@ function renderContactoSection() {
         <div>⏰ ${info.horario || ''}</div>
         <div>📧 ${info.email || ''}</div>
         <div class="enlace-google-maps">
-          ${info.enlaceGoogleMaps ? `<a href="${info.enlaceGoogleMaps}" class="btn-reseña-google" target="_blank" rel="noopener">📱 Calificanos ahora</a><br>` : ''}
-          ${info.telefono ? `<a href="tel:${info.telefono}" class="btn-contactar">📞 Contactar ahora</a>` : ''}
+          ${info.enlaceGoogleMaps ? `<a href="${info.enlaceGoogleMaps}" class="btn-reseña-google" target="_blank" rel="noopener">${window.currentLanguage === 'en' ? '📱 Rate us now' : '📱 Calificanos ahora'}</a><br>` : ''}
+          ${info.telefono ? `<a href="tel:${info.telefono}" class="btn-contactar">${window.currentLanguage === 'en' ? '📞 Contact now' : '📞 Contactar ahora'}</a>` : ''}
         </div>
       </div>
     </section>
@@ -183,12 +224,12 @@ function renderGaleriaSection() {
 /*---------------------------*/
 
 function mostrarProductosPorCategoria(categoria) {
-  if (categoria.toLowerCase() === 'contacto') {
+  if (categoria.toLowerCase() === 'contacto' || categoria.toLowerCase() === 'contact') {
     renderContactoSection();
     window.scrollTo({ top: 0, behavior: 'smooth' });
     return;
   }
-  if (categoria.toLowerCase() === 'galería' || categoria.toLowerCase() === 'galeria') {
+  if (categoria.toLowerCase() === 'galería' || categoria.toLowerCase() === 'galeria' || categoria.toLowerCase() === 'gallery') {
     renderGaleriaSection();
     window.scrollTo({ top: 0, behavior: 'smooth' });
     return;
@@ -233,6 +274,7 @@ function mostrarProductosPorCategoria(categoria) {
 }
 
 function inicializarWeb() {
+  window.currentLanguage = localStorage.getItem('language') || 'es';
   fetch('datos/info-bar.json')
     .then(r => r.json())
     .then(info => {
@@ -365,16 +407,11 @@ function inicializarWeb() {
         }
       }
 
-      fetch('datos/menu.json')
-        .then(response => response.json())
-        .then(data => {
-          window.menuData = data;
-          generarNavegadorCategorias(data);
-          if (data.length > 0) {
-            setActiveCategory(data[0].categoria);
-            mostrarProductosPorCategoria(data[0].categoria);
-          }
-        });
+      updateLanguageButtonText();
+      const langBtn = document.getElementById('language-toggle');
+      if (langBtn) langBtn.addEventListener('click', toggleLanguage);
+
+      cargarMenuSegunIdioma();
     });
 }
 
