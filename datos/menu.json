@@ -133,9 +133,9 @@
     {
       "categoria": "Hamburguesas",
       "productos": [
-        {"nombre": "Burguer de carne de vaca, pan brioche, bacon, pepinillo y queso cheddar", "descripcion": "Hamburguesa de carne de vaca con queso cheddar y bacon.", "precio": "12,50€", "alergenos": ["gluten", "lacteos"]},
-        {"nombre": "Burguer de pollo picado, pan brioche, bacon y queso cheddar", "descripcion": "Hamburguesa de pollo con queso cheddar y bacon.", "precio": "11,50€", "alergenos": ["gluten", "lacteos"]},
-        {"nombre": "Mini hamburguesas de ternera gallega (4 unidades)", "descripcion": "Cuatro mini hamburguesas elaboradas con ternera gallega, jugosas y llenas de sabor.", "precio": "11,20€", "alergenos": ["gluten"]
+        {"nombre": "Burguer de carne de vaca, pan brioche negro, bacon, pepinillo y queso chedda", "descripcion": "Hamburguesa de carne de vaca con queso cheddar y bacon.", "precio": "12,50€", "alergenos": ["gluten", "lacteos"]},
+        {"nombre": "Burguer de pollo picado, pan brioche negro, bacon y queso cheddar", "descripcion": "Hamburguesa de pollo con queso cheddar y bacon.", "precio": "11,50€", "alergenos": ["gluten", "lacteos"]},
+        {"nombre": "Mini hamburguesas de ternera con pan de colores (4 unidades)", "descripcion": "Cuatro mini hamburguesas elaboradas con ternera, jugosas y llenas de sabor.", "precio": "11,20€", "alergenos": ["gluten"]
         }
       ]
     },
