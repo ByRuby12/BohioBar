@@ -55,7 +55,8 @@ function updateLanguageButtonText() {
   const btn = document.getElementById('language-toggle');
   if (!btn) return;
   const isEnglish = window.currentLanguage === 'en';
-  btn.textContent = isEnglish ? 'EN' : 'ES';
+  // Usar icono de globo (FontAwesome). Mantener title y clases para accesibilidad y estilos.
+  btn.innerHTML = '<i class="fas fa-globe" aria-hidden="true"></i>';
   btn.title = isEnglish ? 'Switch to English' : 'Cambiar a Español';
   btn.classList.toggle('lang-en', isEnglish);
   btn.classList.toggle('lang-es', !isEnglish);
@@ -493,6 +494,6 @@ document.addEventListener('click', function (e) {
   }
 });
 
-console.log('¡Gracias por visitar Bar Atenea! Disfruta de nuestra comida y bebidas.');
+console.log('¡Gracias por visitar Bar Bohio! Disfruta de nuestra comida y bebidas.');
 console.log('Página Web realizada por: ByRuby12 - https://github.com/ByRuby12 ');
 console.log('Contactame por email: byruby12.contacto@gmail.com');
