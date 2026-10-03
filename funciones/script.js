@@ -176,7 +176,7 @@ function renderContactoSection() {
         ${serviciosHTML}
         <div class="enlace-google-maps">
           ${info.enlaceGoogleMaps ? `<a href="${info.enlaceGoogleMaps}" class="btn-reseña-google" target="_blank" rel="noopener">${window.currentLanguage === 'en' ? '📱 Rate us now' : '📱 Califícanos ahora'}</a><br>` : ''}
-          ${info.telefono ? `<a href="tel:${info.telefono}" class="btn-contactar">${window.currentLanguage === 'en' ? '📞 Contact now' : '📞 Contactar ahora'}`</a>` : ''}
+          ${info.telefono ? `<a href="tel:${info.telefono}" class="btn-contactar">${window.currentLanguage === 'en' ? '📞 Contact now' : '📞 Contactar ahora'}</a>` : ''}
         </div>
       </div>
     </section>
