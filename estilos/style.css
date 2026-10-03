@@ -1098,7 +1098,7 @@ body, html {
 }
 .footer-social-link:hover .footer-social-icon,
 .footer-social-link:focus .footer-social-icon {
-  filter: drop-shadow(0 4px 16px var(--footer-social-icon-filter-hover)) brightness(1.15) saturate(1.2);
+  filter: brightness(0) invert(1) drop-shadow(0 4px 16px var(--footer-social-icon-filter-hover));
   transform: scale(1.12) rotate(-6deg);
 }
 
