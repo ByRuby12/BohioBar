@@ -19,26 +19,22 @@
   },
   "colores": {
     "letras-pagina-web": "'Montserrat', 'Poppins', 'Oswald', 'Raleway', 'Ubuntu', sans-serif",
-
     "color-header-bg": "#1a1a1a",
     "color-header-border": "#2a2a2a",
     "color-logo-bg": "#fff",
     "color-logo-shadow": "#0003",
     "color-logo-shadow-anim": "#44444455",
     "color-logo": "#444444",
-
     "color-top-banner-bg": "#1a1a1a",
     "color-banner-bg": "#1a1a1a",
     "color-banner-overlay": "#1a1a1acc",
     "color-bg-main": "#232323",
-
     "color-bar-title": "#fff",
     "color-bar-title-h1": "#e0e0e0",
     "color-bar-title-h1-shadow": "#0008",
     "color-bar-address": "#e0e0e0",
     "color-bar-address-shadow": "#000a",
     "color-bar-name": "#ffffff",
-
     "color-nav-bg": "#1a1a1a",
     "color-nav-shadow": "#0002",
     "color-nav-border-bottom": "#444444",
@@ -52,7 +48,6 @@
     "color-nav-hover-text": "#444444",
     "color-nav-underline": "#ffffff",
     "color-nav-underline-shadow": "#44444488",
-
     "color-card-bg": "#1a1a1a",
     "color-card-bg-gradient": "#232323",
     "color-card-border": "#6c6c6c",
@@ -64,14 +59,12 @@
     "color-card-price-bg": "#444444",
     "color-card-price": "#fff",
     "color-card-price-shadow": "#ffffff",
-
     "color-sticky-bg": "#1a1a1a",
     "color-sticky-shadow": "#0005",
     "color-sticky-logo-bg": "#fff",
     "color-sticky-logo-shadow": "#0002",
     "color-sticky-title": "#ffffff",
     "color-sticky-title-shadow": "#0008",
-
     "color-contact-bg": "#1a1a1a",
     "color-contact-gradient": "#232323",
     "color-contact-shadow": "#0005",
@@ -94,14 +87,11 @@
     "color-contact-btn-contactar-shadow2": "#0005",
     "color-contact-btn-contactar-hover-shadow": "#0008",
     "color-contact-title-hover": "#444444",
-
     "color-efecto-amarillo": "#444444",
     "color-yellow-effect": "#444444",
-
     "color-product-title": "#ffffff",
     "color-product-title-hover": "#ffffff",
     "color-product-card-border-hover": "#ffffff",
-
     "color-btn-reseña-bg": "#444444",
     "color-btn-reseña-text": "#fff",
     "color-btn-reseña-hover-bg": "#333333",
@@ -111,7 +101,6 @@
     "color-btn-reseña-shadow": "#000",
     "color-btn-reseña-shadow2": "#0005",
     "color-btn-reseña-hover-shadow": "#0008",
-
     "footer-bg": "#1a1a1a",
     "footer-main-border": "#444444",
     "footer-text": "#e0e0e0",
@@ -131,13 +120,18 @@
     "footer-social-focus": "#fff",
     "footer-social-icon-filter": "#44444455",
     "footer-social-icon-filter-hover": "#44444488",
-    "footer-social-row-bg" : "#1a1a1a",
-
+    "footer-social-row-bg": "#1a1a1a",
     "color-galeria-borde": "#444444",
     "color-galeria-overlay": "#00000014",
     "color-galeria-overlay2": "#00000014",
     "color-galeria-modal-bg": "#000000E6",
     "color-galeria-modal-contador-bg": "#000000CC"
+  },
+  "desarrollador_en": "Designed and developed by ByRuby12 - V1.0",
+  "footerDerechos_en": "Copyright ©{year} All rights reserved for {bar}",
+  "servicios": {
+    "justEat": "https://www.just-eat.es/",
+    "uberEats": "https://www.ubereats.com/es/",
+    "glovo": "https://glovoapp.com/es/"
   }
-
 }
