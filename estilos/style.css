@@ -1388,3 +1388,62 @@ body, html {
 }
 
 /*----------------------------------------------------*/
+
+
+/* Servicios de entrega */
+.servicios-entrega {
+  width: 100%;
+  margin: 1rem 0 0.5rem;
+}
+.servicios-entrega h3 {
+  color: var(--color-contact-title);
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+}
+.servicios-entrega-lista {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+.servicio-entrega {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 8.5rem;
+  padding: 0.55rem 0.75rem;
+  color: var(--color-contact-text);
+  background: var(--color-contact-box);
+  border: 1px solid var(--color-card-border);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+.servicio-entrega:hover,
+.servicio-entrega:focus-visible {
+  color: var(--color-contact-text);
+  background: var(--color-contact-btn-hover-bg);
+  border-color: var(--color-product-card-border-hover);
+  transform: translateY(-3px);
+}
+.servicio-entrega img {
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+.servicio-entrega span {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* Título de redes sociales del footer */
+#footer-social-title {
+  width: 100%;
+  margin: 0;
+  color: var(--footer-text);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
