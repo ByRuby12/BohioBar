@@ -134,6 +134,25 @@ function inicializarInfoBarYMeta() {
 
 function renderContactoSection() {
   const info = window.infoBar || {};
+  const servicios = info.servicios || {};
+  const serviciosDisponibles = [
+    { nombre: 'Just Eat', clave: 'justEat', logo: 'justeat', aria: 'Pedir en Just Eat' },
+    { nombre: 'Uber Eats', clave: 'uberEats', logo: 'ubereats', aria: 'Pedir en Uber Eats' },
+    { nombre: 'Glovo', clave: 'glovo', logo: 'glovo', aria: 'Pedir en Glovo' }
+  ].filter(servicio => typeof servicios[servicio.clave] === 'string' && servicios[servicio.clave].trim() && servicios[servicio.clave] !== '#');
+  const isEnglish = window.currentLanguage === 'en';
+  const serviciosHTML = serviciosDisponibles.length ? `
+        <div class="servicios-entrega">
+          <h3>${isEnglish ? 'Services' : 'Servicios'}</h3>
+          <div class="servicios-entrega-lista">
+            ${serviciosDisponibles.map(servicio => `
+              <a class="servicio-entrega" href="${servicios[servicio.clave]}" target="_blank" rel="noopener" aria-label="${servicio.aria}">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/${servicio.logo}.svg" alt="">
+                <span>${servicio.nombre}</span>
+              </a>
+            `).join('')}
+          </div>
+        </div>` : '';
   const menuContainer = document.getElementById('menu-container');
   menuContainer.innerHTML = `
     <section class="contacto-section animate-contacto contacto-simple">
@@ -142,18 +161,27 @@ function renderContactoSection() {
         <h2 class="contacto-nombre">${info.nombreBar || ''}</h2>
       </div>
       <div class="contacto-datos-simples">
-        <div>📍 ${info.direccion || ''}</div>
-        <div>⏰ ${info.horario || ''}</div>
-        <div>📧 ${info.email || ''}</div>
+        <div class="contacto-dato">
+          <strong>📍 ${window.currentLanguage === 'en' ? 'Address' : 'Dirección'}</strong>
+          <span>${info.direccion || ''}</span>
+        </div>
+        <div class="contacto-dato">
+          <strong>⏰ ${window.currentLanguage === 'en' ? 'Opening hours' : 'Horario'}</strong>
+          <span>${info.horario || ''}</span>
+        </div>
+        <div class="contacto-dato">
+          <strong>📧 ${window.currentLanguage === 'en' ? 'Email' : 'Correo'}</strong>
+          <span>${info.email || ''}</span>
+        </div>
+        ${serviciosHTML}
         <div class="enlace-google-maps">
-          ${info.enlaceGoogleMaps ? `<a href="${info.enlaceGoogleMaps}" class="btn-reseña-google" target="_blank" rel="noopener">${window.currentLanguage === 'en' ? '📱 Rate us now' : '📱 Calificanos ahora'}</a><br>` : ''}
-          ${info.telefono ? `<a href="tel:${info.telefono}" class="btn-contactar">${window.currentLanguage === 'en' ? '📞 Contact now' : '📞 Contactar ahora'}</a>` : ''}
+          ${info.enlaceGoogleMaps ? `<a href="${info.enlaceGoogleMaps}" class="btn-reseña-google" target="_blank" rel="noopener">${window.currentLanguage === 'en' ? '📱 Rate us now' : '📱 Califícanos ahora'}</a><br>` : ''}
+          ${info.telefono ? `<a href="tel:${info.telefono}" class="btn-contactar">${window.currentLanguage === 'en' ? '📞 Contact now' : '📞 Contactar ahora'}`</a>` : ''}
         </div>
       </div>
     </section>
   `;
 }
-
 /*------------12/08/2025 galeria---------------*/
 function renderGaleriaSection() {
   // Busca la categoría "Galería" en menuData
