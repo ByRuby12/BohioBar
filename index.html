@@ -15,6 +15,61 @@
 </head>
 
 <body>
+  <!-- INICIO AVISO TEMPORAL DE MANTENIMIENTO: eliminar este bloque completo para restaurar la web -->
+  <script id="temporary-maintenance">
+    (() => {
+      const style = document.createElement('style');
+      style.textContent = `
+        #temporary-maintenance-screen {
+          position: fixed; inset: 0; z-index: 999999;
+          display: flex; align-items: center; justify-content: center;
+          padding: 24px; box-sizing: border-box; overflow: auto;
+          background: radial-gradient(ellipse at top, #263b35 0%, #111a18 55%, #090e0d 100%);
+          color: #fff; text-align: center; font-family: Arial, sans-serif;
+        }
+        #temporary-maintenance-screen .maintenance-card {
+          width: min(100%, 560px); padding: 48px 32px;
+          border: 1px solid rgba(255,255,255,.14); border-radius: 22px;
+          background: rgba(255,255,255,.06); box-shadow: 0 24px 80px rgba(0,0,0,.35);
+          backdrop-filter: blur(12px);
+        }
+        #temporary-maintenance-screen .maintenance-icon {
+          width: 76px; height: 76px; margin: 0 auto 25px;
+          display: grid; place-items: center; border-radius: 50%;
+          background: rgba(207,170,94,.15); color: #d8b56e; font-size: 34px;
+        }
+        #temporary-maintenance-screen .maintenance-tag {
+          color: #d8b56e; font-size: 12px; font-weight: 700;
+          letter-spacing: 3px; text-transform: uppercase;
+        }
+        #temporary-maintenance-screen h1 {
+          margin: 15px 0; font-size: clamp(30px, 7vw, 46px); line-height: 1.1;
+        }
+        #temporary-maintenance-screen p {
+          margin: 0 auto; max-width: 420px; color: #d0d8d4;
+          font-size: 16px; line-height: 1.7;
+        }
+        #temporary-maintenance-screen .maintenance-status {
+          display: inline-block; margin-top: 28px; padding: 10px 16px;
+          border: 1px solid rgba(216,181,110,.4); border-radius: 30px;
+          color: #e5c98f; font-size: 13px; letter-spacing: .4px;
+        }
+      `;
+      document.head.appendChild(style);
+      document.body.insertAdjacentHTML('afterbegin', `
+        <section id="temporary-maintenance-screen" role="status" aria-live="polite">
+          <div class="maintenance-card">
+            <div class="maintenance-icon" aria-hidden="true">⚒</div>
+            <div class="maintenance-tag">Bohio Bar</div>
+            <h1>Estamos realizando mejoras</h1>
+            <p>Nuestra web se encuentra temporalmente en mantenimiento. Estamos trabajando para volver a estar disponibles lo antes posible.</p>
+            <span class="maintenance-status">Volveremos muy pronto</span>
+          </div>
+        </section>
+      `);
+    })();
+  </script>
+  <!-- FIN AVISO TEMPORAL DE MANTENIMIENTO -->
   <div class="top-banner-mix">
     <div class="banner-bg">
       <img id="banner-img" src="" alt="Banner Plantilla">
